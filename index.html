@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simplifying presentation text with one keyboard shortcut</title>
+<meta name="description" content="I got tired of dumbing down slides manually, so I built a tool that does it in one click.">
+<link rel="canonical" href="https://belikenative.com/one-click-text-simplifier-explaining/">
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:720px;margin:40px auto;padding:0 20px;line-height:1.7;color:#333;background:#fff}
+h1{font-size:1.8em;line-height:1.3;margin-bottom:8px}
+h2{font-size:1.4em;margin-top:32px}
+h3{font-size:1.2em;margin-top:24px}
+p{margin:16px 0}
+a{color:#2563eb;text-decoration:none}
+a:hover{text-decoration:underline}
+ul{padding-left:24px}
+li{margin:8px 0}
+.source{color:#666;font-size:14px;margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid #eee}
+.footer{margin-top:40px;padding-top:20px;border-top:1px solid #eee;color:#666;font-size:14px}
+</style>
+</head>
+<body>
+<article>
+<h1>Simplifying presentation text with one keyboard shortcut</h1>
+<div class="source">Originally published at <a href="https://belikenative.com/one-click-text-simplifier-explaining/">belikenative.com/one-click-text-simplifier-explaining</a></div>
+<p>Last month I was prepping a cybersecurity workshop for a mixed audience. Half the room would be engineers, the other half project managers who'd never touched a terminal. I kept rewriting the same slides, trying to strip out jargon without losing accuracy. Full disclosure: I built <a href="https://belikenative.com">BeLikeNative</a>, a free Chrome extension for real-time grammar and writing help. Take my perspective accordingly.</p>
+<p>That experience pushed me to build a one-click text simplifier. The idea was simple: highlight dense text, hit a keyboard shortcut, get a cleaner version back. No copying into a separate app. No waiting for a chatbot to respond.</p>
+<h2>The &quot;just make it simpler&quot; loop</h2>
+<p>Anyone who's given a technical presentation knows this tension. You understand the material deeply, but your audience doesn't share your vocabulary. So you dumb it down. Then you worry you've lost the nuance. Then you add the nuance back, and it's complicated again.</p>
+<p>I ran into this loop constantly. A sentence like "Implement multi-factor authentication protocols utilizing cryptographic hash functions and time-based one-time password algorithms to mitigate unauthorized access vectors" is accurate. It's also a wall. For the workshop, I needed something closer to "Set up extra security steps that use special codes and time-limited passwords to prevent unauthorized access." Same idea, fewer barriers. Doing that manually for an entire slide deck takes hours, and the result is inconsistent because you're making judgment calls on every sentence while tired and under deadline pressure.</p>
+<h2>How the simplifier works</h2>
+<p>The approach I landed on is pretty straightforward. You install the <a href="https://belikenative.com">BeLikeNative</a> Chrome extension, highlight the text you want to simplify, and press a keyboard shortcut. The simplified version gets copied to your clipboard automatically.</p>
+<p>It works inside Google Slides, Google Docs, Notion, and most browser-based tools. I built it this way because I didn't want people switching to a separate app. The whole point is staying in your workflow. The tool preserves the original meaning while replacing complex phrasing with shorter, clearer alternatives. It breaks long sentences apart. It swaps jargon for everyday language. And it handles 80+ languages, which turned out to be more useful than I expected.</p>
+<h2>Where this actually helped me</h2>
+<p>The cybersecurity workshop was the first real test. But I've since used it in contexts that surprised me.</p>
+<p>Business presentations were an obvious one. Instead of explaining "quarterly revenue recognition methodologies under ASC 606 compliance frameworks," I could get it down to "how we calculate and report earnings each quarter." The executives didn't need the accounting standards. They needed the story.</p>
+<p>Sales demos were another. My team had been describing features as "API endpoints with RESTful architecture supporting JSON payloads." Fine for developers. For a non-technical buyer, "connection points that let different software systems talk to each other" lands better. The simplifier got us there faster.</p>
+<p>The scenario I didn't anticipate was cross-cultural communication. I work with people across multiple countries, and simplified English is genuinely easier to translate, both by humans and machines. I simplified a company policy document before sending it to an international subsidiary, and the follow-up questions dropped noticeably. Fewer misunderstandings meant fewer clarification meetings.</p>
+<h2>Tone and style controls</h2>
+<p>One thing I added early was the ability to adjust tone. A formal executive briefing needs different language than a casual team standup. The simplifier lets you set that context so the output matches your situation.</p>
+<p>It also handles regional formatting. For U.S. audiences, dates come out as MM/DD/YYYY, currency uses the dollar sign, and spelling follows American conventions ("organize" not "organise"). Small details, but they matter when slides go in front of a client. You can customize the simplification level too. Sometimes you want a light touch that just trims jargon. Other times you need something a sixth-grader could follow. Both are valid depending on who's in the room.</p>
+<h2>The real time savings</h2>
+<p>I used to spend roughly 30 minutes per slide deck just on simplification. Now it's closer to 5. The bottleneck was never understanding the content. It was translating it into accessible language under time pressure.</p>
+<p>That freed-up time goes into better things: rehearsing delivery, refining the narrative, thinking about what questions might come up. The mechanical part of rewriting got automated, and the creative part got more of my attention. For trainers and consultants who build presentations weekly, this adds up fast. A database normalization concept like "third normal form dependencies" becomes "organize data to avoid duplicates and keep information accurate." You make that translation once, the tool handles it, and you move on.</p>
+<h2>Getting started</h2>
+<p>The free plan gives you 5 uses per day with a 500-character limit. That's enough for occasional touch-ups on slide titles and short paragraphs. If you present regularly, the Learner plan at $4/month bumps that to 25 daily uses and 2,000 characters, with custom shortcuts. The Native ($6/month) and Premium ($14/month) plans scale from there for heavier use.</p>
+<p>I kept the free tier genuinely usable because I wanted people to try it without commitment. Install the extension, simplify a few paragraphs, see if it fits how you work. If it doesn't save you time, nothing lost.</p>
+<p>The next thing I'm working on is better integration with presentation-specific workflows, like auto-detecting speaker notes versus slide text and applying different simplification levels to each. That's still in progress, but it's the direction I'm most interested in right now.</p>
+<p>I build <a href="https://belikenative.com">BeLikeNative</a>, a free Chrome extension that helps you write better English anywhere on the web. No signup, no data collection.</p>
+<div class="footer">
+<p>Read the original at <a href="https://belikenative.com/one-click-text-simplifier-explaining/">belikenative.com/one-click-text-simplifier-explaining</a></p>
+<p><a href="https://belikenative.com">BeLikeNative</a> is a free Chrome extension for real-time grammar checking and writing improvement.</p>
+</div>
+</article>
+</body>
+</html>
